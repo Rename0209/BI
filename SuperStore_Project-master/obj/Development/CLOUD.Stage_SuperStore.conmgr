@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="CLOUD Stage_SuperStore"
+  DTS:DTSID="{DF370CB7-DC68-4721-ADC8-988F986BD9B4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-SDTBD0C\SQLEXPRESS;Initial Catalog=Stage_SuperStore;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-{DF370CB7-DC68-4721-ADC8-988F986BD9B4}CLOUD Stage_SuperStore;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

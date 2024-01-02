@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="CLOUD.DDS_SuperStore"
+  DTS:DTSID="{AD0F7698-F179-45ED-85C5-AAAD7E1C1370}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-SDTBD0C\SQLEXPRESS;Initial Catalog=DDS_SuperStore;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-{AD0F7698-F179-45ED-85C5-AAAD7E1C1370}CLOUD.DDS_SuperStore;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
